@@ -20,6 +20,8 @@ code {
   padding: 10px;
   border-radius: 5px;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .input-field {
@@ -65,5 +67,14 @@ code {
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
+  z-index: +1;
+}
+
+.list-item div {
+  height: 100%;
+  width: 20px;
+  background-color: red;
+  position: relative;
+  bottom: 20px;
 }
 
