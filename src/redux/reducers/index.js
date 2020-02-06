@@ -1,7 +1,7 @@
 import { combineReducers } from "redux"
 
-import PostReducer from "./postsReducer"
+import messageReducer from "./message-reducer"
 
 export default combineReducers({
-    postsList: PostReducer
+    messageReducer: messageReducer
 })

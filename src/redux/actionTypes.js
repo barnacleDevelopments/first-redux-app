@@ -1,3 +1,3 @@
-export const FETCH_POST_LIST = "FETCH_POST_LIST"
-
-
+export const messageActions =  {
+    GET_MESSAGES: "GET_MESSAGES"
+}

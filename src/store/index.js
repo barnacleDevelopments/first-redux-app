@@ -1,7 +1,7 @@
 import {createStore, compose} from "redux"
 
-import reducers from "../redux/reducers/index"
+import messageReducer from "../redux/reducers/message-reducer"
 
-const Store = createStore(reducers)
+const Store = createStore(messageReducer)
 
 export default Store

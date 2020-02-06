@@ -1,7 +1,6 @@
-import { FETCH_POST_LIST } from "../actionTypes"
+import { messageActions } from "../actionTypes"
 
-export const fetchPosts = payLoad => ({
-    type: FETCH_POST_LIST
-
-    payLoad
+export const addMessage = messages => ({
+    type: messageActions.GET_MESSAGES,
+    messages: messages
 })
